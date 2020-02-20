@@ -12,9 +12,21 @@ class ProblemsTest {
   };
 
 
+  char[] parsssn  = {
+      1,2,3,4,5,6,7,8,9
+  };
+
+  String expected =
+      "123-45-6789";
+
+
   Problems problems = new Problems();
+
+
+
   @Test
   void helloName() {
+
 
 //    assertEquals("Hello Alex!", problems.helloName(nameprams[]));
 
