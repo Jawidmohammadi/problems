@@ -38,4 +38,23 @@ class ProblemsTest {
     }
 
   }
+
+
+  @Test
+  void factorial() {
+
+    int input = 5;
+    int expected = 120;
+    assertEquals(expected, problems.factorial(input));
+  }
+
+
+  @Test
+  void factorialWithRecursion(){
+
+    int input = 6;
+    int expected= 720;
+    assertEquals(expected, problems.factorialWithRecursion(input));
+
+  }
 }
